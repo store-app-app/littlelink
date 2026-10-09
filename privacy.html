@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 
-<!--
-  To change the theme, change the class on the html tag below to one of:
-  - theme-auto: Automatically switches based on user's system preferences
-  - theme-light: Forces light theme
-  - theme-dark: Forces dark theme
--->
-
-<html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
+<html class="theme-auto" lang="zh-CN">
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-    <title>Privacy Policy | LittleLink</title>
-    <link rel="icon" type="image/png" href="images/avatar.png"> <!-- Update this with your own favicon -->
+    <title>隐私政策 | 我的链接</title>
+    <link rel="icon" type="image/png" href="images/avatar.png">
 
+    <meta name="description" content="本站隐私政策与数据收集说明">
+    <meta name="robots" content="noindex">
 
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
-    <meta name="description" content="Privacy policy and data collection information for LittleLink">
-    <meta name="robots" content="noindex"> <!-- Since this is a utility page -->
-
-    <!-- Browser UI Color - Matches the default light/dark theme backgrounds -->
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
 
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
@@ -37,48 +25,50 @@
     <main class="container-left">
       <div class="column">
         <nav>
-          <a href="index.html" aria-label="Back to homepage">← Back to main page</a>
+          <a href="index.html" aria-label="返回主页">← 返回主页</a>
         </nav>
 
-        <h1>Privacy Overview</h1>
+        <h1>隐私政策</h1>
 
-        <section aria-labelledby="analytics-heading">
-          <h2 id="analytics-heading">Analytics</h2>
-          <p>The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.</p>
-
-          <h3>Example LLC</h3>
-          <ul role="list">
-            <li>Personal Data: various types of Data as specified in the privacy policy of the service</li>
-            <li><a href="https://example.com/privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
-          </ul>
+        <section aria-labelledby="collect-heading">
+          <h2 id="collect-heading">我们收集哪些信息</h2>
+          <p>本站不收集、不存储、不共享任何个人信息。</p>
+          <p>本站是一个纯静态页面，没有用户注册、没有评论功能、没有表单，也没有放置任何访问统计脚本或分析工具。我们不会读取你的浏览器指纹、地理位置或任何其他可用于识别你个人身份的信息。</p>
         </section>
 
-        <section aria-labelledby="external-content-heading">
-          <h2 id="external-content-heading">External Content</h2>
-          <p>This type of service allows you to view content hosted on external platforms directly from the pages of this website and interact with them.</p>
-          <p>This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.</p>
-
-          <h3>Example LLC</h3>
-          <ul role="list">
-            <li>Personal Data: Usage Data; various types of Data as specified in the privacy policy of the service</li>
-            <li><a href="https://example.com/privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
-          </ul>
+        <section aria-labelledby="cookie-heading">
+          <h2 id="cookie-heading">Cookie</h2>
+          <p>本站自身不设置任何 Cookie。</p>
         </section>
 
         <section aria-labelledby="hosting-heading">
-          <h2 id="hosting-heading">Hosting and Infrastructure</h2>
-          <p>This type of service has the purpose of hosting Data and files that enable this website to exist.</p>
-          <p>Some services among those listed below, if any, may work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.</p>
+          <h2 id="hosting-heading">托管与日志</h2>
+          <p>本站托管在 Cloudflare Workers 上。页面内容不依赖任何数据库或应用服务器，全部内容以静态文件形式分发。</p>
+          <p>需要说明的是，Cloudflare 作为内容分发网络服务商，会出于运维和安全目的处理访问请求的技术信息（例如 IP 地址、请求时间、User-Agent 等），并可能依据其自身条款保留部分请求日志。这些日志由 Cloudflare 管理，不由本站控制。如果你希望进一步了解 Cloudflare 对数据的处理方式，可查阅其<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">隐私政策</a>。</p>
+        </section>
 
-          <h3>Example LLC</h3>
-          <ul role="list">
-            <li>Personal Data: various types of Data as specified in the privacy policy of the service</li>
-            <li><a href="https://example.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
-          </ul>
+        <section aria-labelledby="external-heading">
+          <h2 id="external-heading">外部链接</h2>
+          <p>页面上的链接会把你带到第三方网站（例如 GitHub、哔哩哔哩等）。这些网站由各自的运营方独立管理，有自己的隐私政策和数据处理方式。请注意，在你离开本站后，他们的数据收集行为不再受本政策约束。</p>
+        </section>
+
+        <section aria-labelledby="rights-heading">
+          <h2 id="rights-heading">你的权利</h2>
+          <p>由于我们不收集任何个人信息，你不存在需要向我们申请查询、更正或删除的个人数据。</p>
+        </section>
+
+        <section aria-labelledby="update-heading">
+          <h2 id="update-heading">政策更新</h2>
+          <p>如果本站日后增加了统计工具、表单或其他功能，本政策会同步更新。政策有变更时，会直接修改本页面，不另行通知。</p>
+        </section>
+
+        <section aria-labelledby="contact-heading">
+          <h2 id="contact-heading">联系我们</h2>
+          <p>如对本政策有任何疑问，请通过页面上提供的联系方式与我们取得联系。</p>
         </section>
 
         <footer>
-          <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink.</a></p>
+          <p>基于 <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a> 构建。</p>
         </footer>
       </div>
     </main>
