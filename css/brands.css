@@ -36,26 +36,6 @@
 	--button-border:1px solid #ffffff;
 }
 
-/* Placeholder — reserved empty slot. Geometry is inherited from the base
-   `.button` rule; only the colour tokens are overridden, so the stack
-   rhythm is identical to a live button. Keep the `&nbsp;` in the markup:
-   an empty inline-flex box has no baseline, so its line box would pick up
-   the block strut and gain ~8px of extra gap after every slot. */
-.button.button-placeholder {
-	--button-text:transparent;
-	--button-background:rgba(107,114,128,0.06);
-	--button-border:1px dashed #6b7280;   /* 4.8:1 on #ffffff */
-	cursor:default;
-	pointer-events:none;
-	transition:none;
-}
-/* Cancels the global hover lift above — this slot is not clickable. */
-.button.button-placeholder:hover,
-.button.button-placeholder:active {
-	filter:none;
-	transform:none;
-}
-
 /* Amazon */
 .button-amazon {
 	--button-text:#000000;

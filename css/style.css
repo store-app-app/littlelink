@@ -224,10 +224,6 @@ a:hover {
 :root.theme-dark a:not(.button):hover {
 	color:#7AB8FF;
 }
-:root.theme-dark .button.button-placeholder {
-	--button-background:rgba(138,148,166,0.08);
-	--button-border:1px dashed #8a94a6;   /* 6.1:1 on #121212 */
-}
 
 /* Auto theme */
 :root.theme-auto {
@@ -247,10 +243,6 @@ a:hover {
 }
 :root.theme-auto a:not(.button):hover {
 	color:#7AB8FF;
-}
-:root.theme-auto .button.button-placeholder {
-	--button-background:rgba(138,148,166,0.08);
-	--button-border:1px dashed #8a94a6;   /* 6.1:1 on #121212 */
 }
 }
 
