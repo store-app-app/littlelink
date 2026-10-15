@@ -165,6 +165,7 @@
 .button-discord {
 	--button-text:#ffffff;
 	--button-background:#5865F2;
+	--button-border:1px solid #ffffff;   /* 本站补：底色对深色主题 4.07，借描边达标 */
 }
 
 /* Dribbble */
@@ -386,8 +387,9 @@
 
 /* OnlyFans */
 .button-onlyfans {
-	--button-text:#ffffff;
+	--button-text:#000000;                   /* 本站改：原白字对 #00AEEF 仅 2.53 */
 	--button-background:#00AEEF;
+	--button-border:1px solid #000000;   /* 本站补：底色对白色主题 2.53，借描边达标 */
 }
 
 /* Patreon */
@@ -428,6 +430,7 @@
 .button-shop {
 	--button-text:#ffffff;
 	--button-background:#5A31F4;
+	--button-border:1px solid #ffffff;   /* 本站补：底色对深色主题 2.84，借描边达标 */
 }
 
 /* Signal */
