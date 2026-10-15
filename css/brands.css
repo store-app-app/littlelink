@@ -36,6 +36,27 @@
 	--button-border:1px solid #ffffff;
 }
 
+/* AI 代充站 */
+.button.button-ai {
+	--button-text:#ffffff;
+	--button-background:#2457F5;
+	--button-border:1px solid #ffffff;
+}
+
+/* 梯子3元店 */
+.button.button-ladder {
+	--button-text:#ffffff;
+	--button-background:#1A7F37;
+	--button-border:1px solid #ffffff;
+}
+
+/* 币圈导航 */
+.button.button-coin {
+	--button-text:#ffffff;
+	--button-background:#B45309;
+	--button-border:1px solid #ffffff;
+}
+
 /* Amazon */
 .button-amazon {
 	--button-text:#000000;
